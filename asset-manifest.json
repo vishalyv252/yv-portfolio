@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yv-portfolio/static/css/main.49d02eb1.css",
-    "main.js": "/yv-portfolio/static/js/main.245a9269.js",
+    "main.css": "/yv-portfolio/static/css/main.28fffdee.css",
+    "main.js": "/yv-portfolio/static/js/main.2f27083f.js",
     "static/media/java.png": "/yv-portfolio/static/media/java.ee2b30968ee8bdc7799f.png",
     "static/media/My_Resume_Vishal_YV.pdf": "/yv-portfolio/static/media/My_Resume_Vishal_YV.1603cf7f440e368ceaf5.pdf",
     "static/media/mysql.png": "/yv-portfolio/static/media/mysql.167c88550478e6f0f85c.png",
@@ -21,11 +21,11 @@
     "static/media/css.png": "/yv-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/yv-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/yv-portfolio/index.html",
-    "main.49d02eb1.css.map": "/yv-portfolio/static/css/main.49d02eb1.css.map",
-    "main.245a9269.js.map": "/yv-portfolio/static/js/main.245a9269.js.map"
+    "main.28fffdee.css.map": "/yv-portfolio/static/css/main.28fffdee.css.map",
+    "main.2f27083f.js.map": "/yv-portfolio/static/js/main.2f27083f.js.map"
   },
   "entrypoints": [
-    "static/css/main.49d02eb1.css",
-    "static/js/main.245a9269.js"
+    "static/css/main.28fffdee.css",
+    "static/js/main.2f27083f.js"
   ]
 }
