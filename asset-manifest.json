@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/yv-portfolio/static/css/main.49d02eb1.css",
+    "main.js": "/yv-portfolio/static/js/main.b59fc3f8.js",
+    "static/media/java.png": "/yv-portfolio/static/media/java.ee2b30968ee8bdc7799f.png",
+    "static/media/My_Resume_Vishal_YV.pdf": "/yv-portfolio/static/media/My_Resume_Vishal_YV.1603cf7f440e368ceaf5.pdf",
+    "static/media/mysql.png": "/yv-portfolio/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/sunny_side_agency_landing_page.jpg": "/yv-portfolio/static/media/sunny_side_agency_landing_page.f676005a14ca4aec61a0.jpg",
+    "static/media/REST_Countries_API_with_color_theme_switcher.jpg": "/yv-portfolio/static/media/REST_Countries_API_with_color_theme_switcher.9f826449e1fd25ff19fb.jpg",
+    "static/media/python.png": "/yv-portfolio/static/media/python.82c0450ba6c2cc858b12.png",
+    "static/media/Three_Column_Preview.jpg": "/yv-portfolio/static/media/Three_Column_Preview.313964c46f6a29d87886.jpg",
+    "static/media/multi-step-form.jpg": "/yv-portfolio/static/media/multi-step-form.a720ac8e25526202b867.jpg",
+    "static/media/react.png": "/yv-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/Product_Preview_Component.jpg": "/yv-portfolio/static/media/Product_Preview_Component.682c08d45a6b1b9b34c1.jpg",
+    "static/media/QR_Code_Scanner.jpg": "/yv-portfolio/static/media/QR_Code_Scanner.ac822d2a574e53c2d8b7.jpg",
+    "static/media/node.png": "/yv-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/spring-boot.png": "/yv-portfolio/static/media/spring-boot.20c30e27b11bbae88df1.png",
+    "static/media/github.png": "/yv-portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/yv-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/yv-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/yv-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/yv-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/yv-portfolio/index.html",
+    "main.49d02eb1.css.map": "/yv-portfolio/static/css/main.49d02eb1.css.map",
+    "main.b59fc3f8.js.map": "/yv-portfolio/static/js/main.b59fc3f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49d02eb1.css",
+    "static/js/main.b59fc3f8.js"
+  ]
+}
