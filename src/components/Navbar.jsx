@@ -8,17 +8,28 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import Resume from 'https://raw.githubusercontent.com/vishalyv252/yv-portfolio/master/path/to/My_Resume_Vishal_YV.pdf';
+import Resume from '../assets/projects/My_Resume_Vishal_YV.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
-  const download_Resume = () => {
-    const link = document.createElement('a');
-    link.href = Resume; // Use the imported Resume file
-    link.download = 'My_Resume_Vishal_YV.pdf'; // Set the filename for the downloaded file
-    link.click();
+  const downloadResume = () => {
+    fetch(Resume)
+      .then((res) => res.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', 'My_Resume_Vishal_YV.pdf');
+        document.body.appendChild(link);
+        link.click();
+        link.parentNode.removeChild(link);
+      })
+      .catch((error) => {
+        console.error('Error downloading the file: ', error);
+        // Handle errors, such as displaying a message to the user
+      });
   };
   
 
@@ -85,7 +96,7 @@ const Navbar = () => {
             <Link to='contact' smooth={true} duration={500} className='flex justify-center items-center w-full text-gray-300'>
               <HiOutlineMail size={30} />
             </Link>
-            <a className='flex justify-center items-center w-full text-gray-300' href='../assets/projects/My_Resume_Vishal_YV.pdf' onClick={download_Resume}>
+            <a className='flex justify-center items-center w-full text-gray-300' href="#/" onClick={downloadResume}>
               <BsFillPersonLinesFill size={30} />
             </a>
           </div>
@@ -105,8 +116,11 @@ const Navbar = () => {
             <Link to='contact' smooth={true} duration={500} className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} /></Link>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='../assets/projects/My_Resume_Vishal_YV.pdf' onClick={download_Resume}>Resume <BsFillPersonLinesFill size={30} /></a>
+            <a className='flex justify-between items-center w-full text-gray-300' href="#/" onClick={downloadResume}>
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
           </li>
+          
         </ul>
       </div>
     </div>
